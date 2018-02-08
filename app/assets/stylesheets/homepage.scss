@@ -1,0 +1,136 @@
+/*INTRODUCTION*/
+
+.introrow{
+	background-color: #E0EBE8;
+	margin: 0;
+}
+
+.introname{
+	text-align: center;
+	color: #4AB19A;
+}
+
+.intropicture{
+	background-color: #E0EBE8;
+	margin: 0;
+}
+
+.background{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*ABOUT*/
+
+.about{
+	background-color: white;
+	margin: 0;
+}
+
+.aboutprofilepicture{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.aboutsection{
+	padding-top: 100px;
+}
+
+.aboutgreeting{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: #4AB19A;
+	padding-top: 20px;
+}
+
+.aboutdescription{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: #545454;
+	width: 500px;
+	padding-top: 15px;
+	margin-bottom: 100px;
+}
+
+/*SKILL*/
+
+.skill{
+	background-color: white;
+	margin: 0;
+}
+
+.skillheader{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: #4AB19A;
+	padding-top: 20px;
+}
+
+.skillcontent{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+}
+
+ /* The animation code */
+@keyframes example {
+ 	 
+    0% 	{
+    		background-image: image-url('facebook.png');
+    		background-position: 0 0; 
+		}
+	5% 	{
+    		background-image: image-url('facebook.png');
+    		background-position: 0 0; 
+		}	
+    15% 	{	
+    		background-image: image-url('community.png');
+			background-position: 0 77px;
+		}
+    35%	{
+    		background-image: image-url('community.png');
+    		background-position: 0 77px;
+		}
+    45% {
+    		background-image: image-url('roxaslogo.jpg');
+    		background-position: 0 154px;
+		}
+    65% {
+			background-image: image-url('roxaslogo.jpg');
+			background-position: 0 154px;
+		}
+    75% {
+			background-image: image-url('mountain.png');
+			background-position: 0 231px;
+		}
+    100%{
+			background-image: image-url('mountain.png');
+			background-position: 0 231px;
+		}
+}
+
+/* The element to apply the animation to */
+.animation {
+    width: 77px;
+    height: 77px;
+    background-image: image-url('facebook.png');
+    background-size: cover;
+    animation-name: example;
+    animation-duration: 20s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(1,0,0,1);
+    animation-direction: alternate;
+} 

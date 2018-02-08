@@ -1,0 +1,50 @@
+/*NAVBAR*/
+
+.navbarrow{
+	margin: 0;
+	min-height: 120px;
+	background-color: #E0EBE8;
+}
+
+.navbarsection{
+	width: 1000px;
+	margin: auto;
+	background-color: #E0EBE8; 
+}
+
+.profilepicture{
+	padding-top: 15px;
+	padding-left: 0;
+	padding-right: 0;
+	padding-left: 70px;
+}
+
+.myprofilepicture{
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+}
+
+.guidancebutton{
+	text-align: right;
+	padding-top: 40px;
+}
+
+.navbarbuttonstyle{
+	padding: 0;
+	margin: 0;
+}
+
+.navbarbuttonstyle li{
+	list-style: none;
+	display: inline-block;
+	padding-right: 30px;
+}
+
+.navbarbuttonstyle li a{
+	text-decoration: none;
+}
+
+.navbarbuttonstyle li a h4{
+	color: #4AB19A;
+}
